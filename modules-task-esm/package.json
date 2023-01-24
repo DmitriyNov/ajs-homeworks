@@ -1,0 +1,19 @@
+{
+  "name": "modules-task-esm",
+  "version": "1.0.0",
+  "description": "'Task from Netology'",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriyNov"
+  },
+  "author": "DmitriyNov",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
