@@ -42,3 +42,10 @@ test('Testing an illiquid name', () => {
   }
   expect(result).toThrow(new Error('Имя не соответствует условиям (длинна от 2 до 10 символов)'));
 });
+
+test('Testing an illiquid type', () => {
+  function result() {
+    const test = new Bowman('Исьа', 'Barbarian');
+  }
+  expect(result).toThrow(new Error('Задан несуществующий тип персонажа'));
+});
